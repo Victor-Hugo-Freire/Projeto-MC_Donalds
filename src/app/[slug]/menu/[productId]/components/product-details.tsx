@@ -8,8 +8,8 @@ import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { FormatCurrency } from "@/helpers/format-currency";
 
+import CartSheet from "../../components/cart-sheet"
 import { CartContext } from "../../contexts/cart";
-import CartSheet from "./cart-sheet";
 
 interface ProductDetailsProps {
     product: Prisma.ProductGetPayload<{include: {restaurant: {select: {name: true, avatarImageUrl: true}}}}>;
