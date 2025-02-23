@@ -69,7 +69,7 @@ const ProductDetails = ({product}: ProductDetailsProps) => {
               </div>
               </div>
 
-              <ScrollArea className="h-full ">
+              <ScrollArea className="h-full pb-12 ">
               <div className="mt-6 space-y-3 ">
                   <h4 className="font-semibold ">
                       Sobre
@@ -86,7 +86,7 @@ const ProductDetails = ({product}: ProductDetailsProps) => {
                       Ingredientes
                   </h4>
                   </div>
-                  <ul className="list-disc px-5 text-sm text-muted-foreground">
+                  <ul className="list-disc px-5 text-sm text-muted-foreground pb-12">
                       {product.ingredients.map(ingredient => <li key={ingredient}>{ingredient}</li>)}
                   </ul>
               </div>
