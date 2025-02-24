@@ -51,7 +51,7 @@ const CartProductItem = ({ product }: CartItemProps) => {
               </Button>
 
               {/* BOTÃO DE DELETAR */}
-              <div className="p-5">
+              <div className="p-3">
                 <Button
                   className="h-7 w-7 rounded-lg"
                   variant="outline"
