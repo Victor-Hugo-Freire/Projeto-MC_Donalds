@@ -55,7 +55,7 @@ export const createOrder = async (input: CreateOrderInput) => {
         (acc, product) => acc + product.price * product.quantity,
         0,
       ),
-      comsumptionMethod: input.consumptionMethod,
+      consumptionMethod: input.consumptionMethod,
       restaurantId: restaurant.id,
     },
   });

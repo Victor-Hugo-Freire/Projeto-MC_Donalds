@@ -50,7 +50,7 @@ CREATE TABLE "Order" (
     "id" SERIAL NOT NULL,
     "total" DOUBLE PRECISION NOT NULL,
     "status" "OrderStatus" NOT NULL,
-    "comsumptionMethod" "ConsumptionMethod" NOT NULL,
+    "consumptionMethod" "ConsumptionMethod" NOT NULL,
     "restaurantId" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,

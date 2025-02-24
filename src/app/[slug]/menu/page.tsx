@@ -4,6 +4,7 @@ import { db } from "@/lib/prisma";
 
 import RestaurantCategories from "./components/categories";
 import RestaurantHeader from "./components/header";
+
 interface RestaurantMenuPageProps {
   params: Promise<{ slug: string }>;
   searchParams: Promise<{ consumptionMethod: string }>;
@@ -42,3 +43,5 @@ const RestaurantMenuPage = async ({
 };
 
 export default RestaurantMenuPage;
+
+// http://localhost:3000/fsw-donalds/menu?consumptionMethod=dine_in
